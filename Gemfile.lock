@@ -200,6 +200,7 @@ DEPENDENCIES
   mini_backtrace
   minitest-reporters
   pg
+  pry
   rails (= 4.2.3)
   rails-html-sanitizer
   rails_12factor

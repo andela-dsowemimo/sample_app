@@ -12,12 +12,14 @@ class StaticPagesControllerTest < ActionController::TestCase
   end
 
   test "should get help" do
+    skip
     get :help
     assert_response :success
     assert_select "title", "Help | Ruby on Rails Tutorial"
   end
 
   test "should get about" do
+    skip
     get :about
     assert_response :success
     assert_select "title", "About | Ruby on Rails Tutorial"

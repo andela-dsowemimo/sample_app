@@ -52,6 +52,7 @@ end
 
 
 group :test do
+  gem 'pry'
   gem 'minitest-reporters'
   gem 'mini_backtrace'
   gem 'guard-minitest'
