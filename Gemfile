@@ -58,7 +58,7 @@ group :test do
   gem 'pry'
   gem 'minitest-reporters'
   gem 'mini_backtrace'
-
+  gem 'puma'
 end
 
 group :production do
