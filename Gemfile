@@ -44,14 +44,14 @@ group :development, :test do
   gem 'sqlite3'
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
-
+  gem 'guard-minitest'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
 
 group :development do
   gem 'guard' # NOTE: this is necessary in newer versions
-  gem 'guard-minitest'
+
 end
 
 
@@ -59,11 +59,11 @@ group :test do
   gem 'pry'
   gem 'minitest-reporters'
   gem 'mini_backtrace'
-  gem 'guard-minitest'
+
 end
 
 group :production do
   gem 'pg'
   gem 'rails_12factor'
-  gem 'unicorn'
+  gem 'puma'
 end
