@@ -50,7 +50,7 @@ end
 
 group :development do
   gem 'guard' # NOTE: this is necessary in newer versions
-
+  gem 'puma'
 end
 
 
@@ -58,7 +58,6 @@ group :test do
   gem 'pry'
   gem 'minitest-reporters'
   gem 'mini_backtrace'
-  gem 'puma'
 end
 
 group :production do
