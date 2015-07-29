@@ -50,7 +50,7 @@ end
 
 group :development do
   gem 'guard' # NOTE: this is necessary in newer versions
-  gem 'puma'
+  #gem 'puma'
 end
 
 
